@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#7C3AED" />
+    <script>
+      // First script in head to catch and suppress any cross-origin script or iframe errors
+      window.onerror = function(msg, url, lineNo, columnNo, error) {
+        if (msg === 'Script error.' || (typeof msg === 'string' && (msg.includes('ResizeObserver') || msg.includes('Script error')))) {
+          return true;
+        }
+      };
+      window.addEventListener('error', function(event) {
+        if (event.message === 'Script error.' || event.message?.includes('ResizeObserver') || event.message?.includes('Script error')) {
+          event.preventDefault();
+          event.stopImmediatePropagation?.();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason?.message?.includes?.('ResizeObserver') || event.reason?.message?.includes?.('Script error')) {
+          event.preventDefault();
+        }
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>Ybex | India's Most Transparent Influencer Marketplace</title>
+    <meta name="description" content="Influencer and brand collaboration marketplace for sponsorship campaigns, UGC content orders, contract management, escrow, and chat." />
+    <meta property="og:title" content="Ybex | India's Most Transparent Influencer Marketplace" />
+    <meta property="og:description" content="Influencer and brand collaboration marketplace for sponsorship campaigns, UGC content orders, contract management, escrow, and chat." />
+
+    <!-- Google tag (gtag.js) with fallback error handling -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQXC5TWFS0" onerror="this.onerror=null;"></script>
+    <script>
+      try {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YQXC5TWFS0');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>

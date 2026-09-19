@@ -1,0 +1,2003 @@
+{
+  "users": [
+    {
+      "user_id": "user_admin_demo",
+      "email": "admin@ybex.demo",
+      "name": "Ybex General Admin",
+      "role": "admin",
+      "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "auth_method": "seed",
+      "onboarded": true,
+      "created_at": "2026-09-16T16:02:19.709Z",
+      "email_verified": true,
+      "verified": true,
+      "kyc_status": "approved",
+      "phone": "",
+      "agency_badge_claimed": false
+    },
+    {
+      "user_id": "user_admin_ybexmedia",
+      "email": "info@ybexmedia.com",
+      "name": "YbexMedia Admin",
+      "role": "admin",
+      "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "auth_method": "seed",
+      "onboarded": true,
+      "created_at": "2026-09-16T16:02:19.709Z",
+      "email_verified": true,
+      "verified": true,
+      "kyc_status": "approved",
+      "phone": "",
+      "agency_badge_claimed": false
+    },
+    {
+      "user_id": "user_violator_creator",
+      "email": "rahul.sharma@example.com",
+      "name": "Rahul Sharma (Creator)",
+      "role": "creator",
+      "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100",
+      "auth_method": "seed",
+      "onboarded": true,
+      "created_at": "2026-09-16T16:02:19.709Z",
+      "email_verified": true,
+      "verified": true,
+      "kyc_status": "pending",
+      "phone": "9812345678",
+      "agency_badge_claimed": false
+    },
+    {
+      "user_id": "user_violator_brand",
+      "email": "deals@skylinebrands.co",
+      "name": "Skyline Agencies (Brand)",
+      "role": "brand",
+      "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100",
+      "auth_method": "seed",
+      "onboarded": true,
+      "created_at": "2026-09-16T16:02:19.709Z",
+      "email_verified": true,
+      "verified": true,
+      "kyc_status": "pending",
+      "phone": "",
+      "agency_badge_claimed": false
+    },
+    {
+      "user_id": "creator_demo_1",
+      "name": "Alice Creator",
+      "email": "alice@example.com",
+      "role": "creator"
+    }
+  ],
+  "user_sessions": [
+    {
+      "user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "session_token": "token_k2dx6oeo1aa",
+      "expires_at": "2026-09-23T17:04:58.441Z",
+      "created_at": "2026-09-16T17:04:58.441Z"
+    },
+    {
+      "user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "session_token": "token_23yj6vyj6ycj",
+      "expires_at": "2026-09-25T11:46:42.850Z",
+      "created_at": "2026-09-18T11:46:42.850Z"
+    }
+  ],
+  "user_plain_passwords": {
+    "031f30df-67cc-4646-beb9-9197fd569284": "password123",
+    "test4@test.com": "password123",
+    "b6e3babb-4725-4cfa-b325-6db844d0fa2d": "password123",
+    "scriptedravi05@gmail.com": "password123",
+    "42ed6e8f-a582-456c-a84b-d92296159bbd": "password123",
+    "scriptedravi06@gmail.com": "password123",
+    "4646e2b9-5d83-4251-9f3f-d07a20d92ee2": "password123",
+    "scriptedravi04@gmail.com": "password123"
+  },
+  "creator_profiles": [],
+  "brand_profiles": [
+    {
+      "user_id": "753e66b3-7cdb-4984-b942-257f481fa8d1",
+      "company_name": "cosmic eye",
+      "industry": "Fashion",
+      "team_size": "11-50",
+      "website": null,
+      "description": "jvoifnvibdfiv",
+      "logo": "/api/files/file_ngrms3heq9",
+      "verified": true,
+      "created_at": "2026-09-18T02:15:09.125483+00:00",
+      "updated_at": null,
+      "email": "jaibajrang204@gmail.com",
+      "gender_focus": "All, All Genders",
+      "campaign_types": [
+        "paid",
+        "onetime",
+        "barter",
+        "ambassador"
+      ],
+      "budget_range": "₹50K–₹2L",
+      "preferred_creator_size": "Micro 10K–100K",
+      "preferred_niches": "",
+      "representative_name": "Ankit oboroi",
+      "representative_designation": "CEO",
+      "representative_mobile": "9867869050",
+      "cover_image": null,
+      "is_deleted": false,
+      "profile_status": "approved",
+      "review_eta_hours": null,
+      "reviewed_at": null,
+      "onboarding_complete": false,
+      "youtube_url": null,
+      "linkedin_url": null,
+      "twitter_url": null,
+      "rating": 0,
+      "completion_rate": 0,
+      "active_campaigns_count": 0,
+      "is_agency": false
+    },
+    {
+      "user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "company_name": "carboex",
+      "industry": "Travel",
+      "team_size": "11-50",
+      "website": null,
+      "description": "iwuefcbnibeiiwfb",
+      "logo": "/api/files/file_y8ondld2zt",
+      "verified": true,
+      "created_at": "2026-09-18T02:11:33.184652+00:00",
+      "updated_at": null,
+      "email": "ankittomarr123@gmail.com",
+      "gender_focus": "All, All Genders",
+      "campaign_types": [
+        "paid",
+        "onetime"
+      ],
+      "budget_range": "₹10K–₹50K",
+      "preferred_creator_size": "Micro 10K–100K",
+      "preferred_niches": "",
+      "representative_name": "Ankit singhania",
+      "representative_designation": "CTO",
+      "representative_mobile": "8478347585",
+      "cover_image": null,
+      "is_deleted": false,
+      "profile_status": "approved",
+      "review_eta_hours": null,
+      "reviewed_at": null,
+      "onboarding_complete": false,
+      "youtube_url": null,
+      "linkedin_url": null,
+      "twitter_url": null,
+      "rating": 0,
+      "completion_rate": 0,
+      "active_campaigns_count": 0,
+      "is_agency": false
+    },
+    {
+      "user_id": "1b0e4798-9cf1-4edc-878a-3ea12bd1a5de",
+      "company_name": "Sonam Vishwa",
+      "industry": "Beauty & Personal Care",
+      "team_size": "11-50 Employees",
+      "website": "https://sonamvishwa.com",
+      "description": "Premium beauty and skincare essentials crafted with clean ingredients for modern lifestyle and wellness.",
+      "logo": "/api/files/file_ngrms3heq9",
+      "verified": true,
+      "created_at": "2026-09-18T11:21:08.512+00:00",
+      "updated_at": null,
+      "email": "scriptedravi04@gmail.com",
+      "gender_focus": "All Genders",
+      "campaign_types": [
+        "paid",
+        "barter",
+        "UGC & Product Reviews"
+      ],
+      "budget_range": "₹10K–₹50K",
+      "preferred_creator_size": "Micro 10K–100K",
+      "preferred_niches": "Beauty & Personal Care, Lifestyle",
+      "representative_name": "Sonam Vishwa",
+      "representative_designation": "Brand Director",
+      "representative_mobile": "+918765457899",
+      "cover_image": null,
+      "is_deleted": false,
+      "profile_status": "approved",
+      "review_eta_hours": null,
+      "reviewed_at": null,
+      "onboarding_complete": true,
+      "youtube_url": null,
+      "linkedin_url": null,
+      "twitter_url": null,
+      "rating": 5,
+      "completion_rate": 100,
+      "active_campaigns_count": 0,
+      "is_agency": false
+    },
+    {
+      "user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "company_name": "Respiro",
+      "industry": "D2C food",
+      "team_size": "11-50 Employees",
+      "website": "www.ybex.com",
+      "description": "Hello ybex, \nHow are you ",
+      "logo": "/api/files/file_h2ecjdxb1pa",
+      "verified": true,
+      "created_at": "2026-09-14T12:28:47.941571+00:00",
+      "updated_at": "2026-09-16T16:53:28.73+00:00",
+      "email": "ankittomarnew@gmail.com",
+      "gender_focus": "All",
+      "campaign_types": [
+        "UGC & Product Reviews",
+        "Affiliate Marketing"
+      ],
+      "budget_range": "Under ₹10K",
+      "preferred_creator_size": "Micro 10K–100K",
+      "preferred_niches": "Fashion & Apparel",
+      "representative_name": "Ankit Tomar",
+      "representative_designation": "CEO",
+      "representative_mobile": "9999988800",
+      "cover_image": "/api/files/file_bzukysm8it",
+      "is_deleted": false,
+      "profile_status": "approved",
+      "review_eta_hours": null,
+      "reviewed_at": null,
+      "onboarding_complete": false,
+      "youtube_url": null,
+      "linkedin_url": null,
+      "twitter_url": null,
+      "rating": 0,
+      "completion_rate": 0,
+      "active_campaigns_count": 0,
+      "is_agency": false
+    },
+    {
+      "user_id": "548db5cf-9d5a-4a10-aa62-c353b5b114cb",
+      "company_name": "Palmons ",
+      "industry": "Fashion",
+      "team_size": "11-50 Employees",
+      "website": "",
+      "description": "Dhekahdjakdkandjakaknnd",
+      "logo": "/api/files/file_0pd7t6yy9xs",
+      "verified": true,
+      "created_at": "2026-09-17T09:04:58.87186+00:00",
+      "updated_at": "2026-09-17T09:09:44.174+00:00",
+      "email": "deepak.gutargoo@gmail.com",
+      "gender_focus": "All genders",
+      "campaign_types": [
+        "paid",
+        "barter"
+      ],
+      "budget_range": "₹10K–₹50K",
+      "preferred_creator_size": "Micro 10K–100K",
+      "preferred_niches": "",
+      "representative_name": "Deepak Kumar",
+      "representative_designation": "Agency lead",
+      "representative_mobile": "+91 9315099117",
+      "cover_image": "",
+      "is_deleted": false,
+      "profile_status": "approved",
+      "review_eta_hours": null,
+      "reviewed_at": null,
+      "onboarding_complete": false,
+      "youtube_url": null,
+      "linkedin_url": null,
+      "twitter_url": null,
+      "rating": 0,
+      "completion_rate": 0,
+      "active_campaigns_count": 0,
+      "is_agency": false
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign_id": "1648b847-e905-4f9b-b01a-47e9dffda994",
+      "brand_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "brand_name": "Respiro",
+      "brand_logo": "/api/files/file_h2ecjdxb1pa",
+      "title": "sunscreen",
+      "description": "djvhcvdjcvuvdcjsdbcuyvcibicjbuydvcjbc",
+      "budget_min": 5000,
+      "budget_max": 5000,
+      "deliverables": [
+        "1 Instagram Reel with link in bio"
+      ],
+      "categories": [
+        "Fashion"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-09-28",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-14T12:39:08.708873+00:00",
+      "views": 0
+    },
+    {
+      "campaign_id": "9929b685-15a4-46ab-b420-5057a5270888",
+      "brand_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "brand_name": "Respiro",
+      "brand_logo": "/api/files/file_h2ecjdxb1pa",
+      "title": "Ankit 1",
+      "description": "I need some break",
+      "budget_min": 5000,
+      "budget_max": 5000,
+      "deliverables": [
+        "1 Instagram Reel with link in bio"
+      ],
+      "categories": [
+        "Fashion"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-09-30",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-16T18:06:40.466256+00:00",
+      "views": 0
+    },
+    {
+      "campaign_id": "ca57cd0d-d112-4ed4-87f3-7fd40d133508",
+      "brand_user_id": "753e66b3-7cdb-4984-b942-257f481fa8d1",
+      "brand_name": "cosmic eye",
+      "brand_logo": "/api/files/file_ngrms3heq9",
+      "title": "Testing 1",
+      "description": "Looking for fashion creators to showcase our new street-style apparel collection with trendy aesthetics, outfit transitions, and high-energy styling tips.",
+      "budget_min": 8000,
+      "budget_max": 15000,
+      "deliverables": [
+        "1 Instagram Reel with link in bio",
+        "1 Story with link"
+      ],
+      "categories": [
+        "Fashion"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-15",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:12:37.719+00:00",
+      "views": 12
+    },
+    {
+      "campaign_id": "d8011c7f-3bfd-4cd9-8310-5ac9d27d4dde",
+      "brand_user_id": "753e66b3-7cdb-4984-b942-257f481fa8d1",
+      "brand_name": "cosmic eye",
+      "brand_logo": "/api/files/file_ngrms3heq9",
+      "title": "Testing 2",
+      "description": "Luxury fashion accessories showcase featuring high-energy transitions, sunglasses styling, and aesthetic street looks for young adults.",
+      "budget_min": 12000,
+      "budget_max": 25000,
+      "deliverables": [
+        "1 Instagram Reel",
+        "2 Carousel Frames"
+      ],
+      "categories": [
+        "Fashion"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-20",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:13:37.719+00:00",
+      "views": 18
+    },
+    {
+      "campaign_id": "8378940f-b9da-49a4-bbd3-58886b7c220b",
+      "brand_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "brand_name": "carboex",
+      "brand_logo": "/api/files/file_y8ondld2zt",
+      "title": "Testing 3",
+      "description": "Travel & adventure creators needed to document outdoor trekking gear, ergonomic luggage, and travel essentials in scenic hill-station and road trip locations.",
+      "budget_min": 10000,
+      "budget_max": 20000,
+      "deliverables": [
+        "1 Instagram Reel",
+        "1 YouTube Short"
+      ],
+      "categories": [
+        "Travel"
+      ],
+      "platforms": [
+        "Instagram",
+        "YouTube"
+      ],
+      "deadline": "2026-10-18",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:14:37.719+00:00",
+      "views": 15
+    },
+    {
+      "campaign_id": "fe8e3a91-8c13-4c7d-bafa-ce0c3d90f626",
+      "brand_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "brand_name": "carboex",
+      "brand_logo": "/api/files/file_y8ondld2zt",
+      "title": "Testing 4",
+      "description": "Weekend road trip & luggage review campaign showcasing durable waterproof backpacks and travel packing organizers in action.",
+      "budget_min": 15000,
+      "budget_max": 30000,
+      "deliverables": [
+        "1 Dedicated Instagram Reel",
+        "3 Story Frames with Link"
+      ],
+      "categories": [
+        "Travel"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-25",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:15:37.719+00:00",
+      "views": 22
+    },
+    {
+      "campaign_id": "a78d4c49-246f-4d33-ba1c-64000e4b3108",
+      "brand_user_id": "548db5cf-9d5a-4a10-aa62-c353b5b114cb",
+      "brand_name": "Palmons",
+      "brand_logo": "/api/files/file_0pd7t6yy9xs",
+      "title": "Testing 5",
+      "description": "Anti-tarnish waterproof jewelry styling reel showing festive & daily wear combinations with close-up macro shots and elegant product placement.",
+      "budget_min": 7000,
+      "budget_max": 14000,
+      "deliverables": [
+        "1 Instagram Reel",
+        "1 Feed Post"
+      ],
+      "categories": [
+        "Fashion"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-16",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:16:37.719+00:00",
+      "views": 14
+    },
+    {
+      "campaign_id": "888cdda9-17a9-4135-b364-dbec0a08698c",
+      "brand_user_id": "548db5cf-9d5a-4a10-aa62-c353b5b114cb",
+      "brand_name": "Palmons",
+      "brand_logo": "/api/files/file_0pd7t6yy9xs",
+      "title": "Testing 6",
+      "description": "Minimalist aesthetic jewelry unboxing and office-to-party look transition video featuring 18k gold-plated everyday luxury pieces.",
+      "budget_min": 9000,
+      "budget_max": 18000,
+      "deliverables": [
+        "1 Reel with Product Tagging",
+        "1 Story Highlight"
+      ],
+      "categories": [
+        "Fashion"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-22",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:17:37.719+00:00",
+      "views": 19
+    },
+    {
+      "campaign_id": "a75115e9-0abb-4a87-a64f-bba92005a4e5",
+      "brand_user_id": "1b0e4798-9cf1-4edc-878a-3ea12bd1a5de",
+      "brand_name": "Sonam Vishwa",
+      "brand_logo": "/api/files/file_ngrms3heq9",
+      "title": "Testing 7",
+      "description": "Get Ready With Me (GRWM) showing 3-step morning glow skincare routine using all-natural serum with glowing skin results on camera.",
+      "budget_min": 6000,
+      "budget_max": 12000,
+      "deliverables": [
+        "1 Instagram Reel GRWM",
+        "1 Story with Swipe-up/Link"
+      ],
+      "categories": [
+        "Beauty & Personal Care"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-14",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:18:37.719+00:00",
+      "views": 11
+    },
+    {
+      "campaign_id": "2b5b31af-1ea0-459c-9ec6-236595209db1",
+      "brand_user_id": "1b0e4798-9cf1-4edc-878a-3ea12bd1a5de",
+      "brand_name": "Sonam Vishwa",
+      "brand_logo": "/api/files/file_ngrms3heq9",
+      "title": "Testing 8",
+      "description": "Deep hydration barrier repair cream review testing texture, absorption and radiant finish on camera with skincare education tips.",
+      "budget_min": 10000,
+      "budget_max": 22000,
+      "deliverables": [
+        "1 Instagram Reel",
+        "1 Photo Review Post"
+      ],
+      "categories": [
+        "Beauty & Personal Care"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-28",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:19:37.719+00:00",
+      "views": 20
+    },
+    {
+      "campaign_id": "8b1a6563-1f96-4636-abc2-15e1cf80c21d",
+      "brand_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "brand_name": "Respiro",
+      "brand_logo": "/api/files/file_h2ecjdxb1pa",
+      "title": "Testing 9",
+      "description": "Crisp healthy snacking taste-test and honest reaction reel featuring roasted makhana & superfoods with high crunch audio and flavor highlight.",
+      "budget_min": 8000,
+      "budget_max": 16000,
+      "deliverables": [
+        "1 Instagram Reel Taste Test",
+        "Story with Discount Code"
+      ],
+      "categories": [
+        "D2C Food"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-19",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:20:37.72+00:00",
+      "views": 25
+    },
+    {
+      "campaign_id": "1956af1f-43f7-4231-97d1-d462c957b42b",
+      "brand_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "brand_name": "Respiro",
+      "brand_logo": "/api/files/file_h2ecjdxb1pa",
+      "title": "Testing 10",
+      "description": "High-protein afternoon snack hack for fitness enthusiasts and work-from-home professionals looking for clean, guilt-free energy.",
+      "budget_min": 12000,
+      "budget_max": 24000,
+      "deliverables": [
+        "1 Instagram Reel",
+        "2 Stories with Link"
+      ],
+      "categories": [
+        "D2C Food"
+      ],
+      "platforms": [
+        "Instagram"
+      ],
+      "deadline": "2026-10-26",
+      "language": "Hindi",
+      "status": "live",
+      "applicants": null,
+      "created_at": "2026-09-18T11:21:37.72+00:00",
+      "views": 31
+    }
+  ],
+  "waves": [],
+  "collabs": [
+    {
+      "collab_id": "collab_brand_1",
+      "to_user_id": "creator_demo_1",
+      "from_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "campaign_id": "c1",
+      "status": "active",
+      "rate": 15000,
+      "message": "Let's do this!",
+      "created_at": "2026-09-15T05:51:39.317Z",
+      "brand_name": "Nexus Brands Inc.",
+      "creator_name": "Alice Creator"
+    }
+  ],
+  "verifications": [],
+  "waitlist": [],
+  "reports": [],
+  "notifications": [
+    {
+      "notif_id": "notif_143a000971",
+      "user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "type": "deal_deliverable_submitted",
+      "title": "Content Deliverable Submitted",
+      "message": "🎥 Deliverable submitted! Creator has uploaded content for your review.",
+      "event_type": "deal_deliverable_submitted",
+      "event_ref_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "role_context": "brand",
+      "subtype": "general",
+      "read": false,
+      "created_at": "2026-09-18T07:16:55.520Z",
+      "link": "/messages/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535"
+    },
+    {
+      "notif_id": "notif_a6e0a96b71",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "ugc_revision_requested",
+      "title": "Revision Requested",
+      "message": "📝 Brand requested a revision: \"Please fix audio sync at 0:15 and re-upload\"",
+      "event_type": "ugc_revision_requested",
+      "event_ref_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "role_context": "creator",
+      "subtype": "general",
+      "read": false,
+      "created_at": "2026-09-18T07:16:51.277Z",
+      "link": "/creator/ugc/orders"
+    },
+    {
+      "notif_id": "notif_c1fe649f37",
+      "user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "type": "ugc_revision_requested",
+      "title": "Revision Requested",
+      "message": "📝 Brand requested a revision: \"Please fix the background audio and re-upload\"",
+      "event_type": "ugc_revision_requested",
+      "event_ref_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "role_context": "brand",
+      "subtype": "general",
+      "read": false,
+      "created_at": "2026-09-18T07:15:11.063Z",
+      "link": "/creator/ugc/orders"
+    },
+    {
+      "notif_id": "notif_b0a62d6744",
+      "user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "type": "deal_deliverable_submitted",
+      "title": "Content Deliverable Submitted",
+      "message": "🎥 Deliverable submitted! Creator has uploaded content for your review.",
+      "event_type": "deal_deliverable_submitted",
+      "event_ref_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "role_context": "brand",
+      "subtype": "general",
+      "read": false,
+      "created_at": "2026-09-18T07:09:09.528Z",
+      "link": "/messages/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535"
+    },
+    {
+      "notif_id": "notif_bf4660e96e",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "ugc_revision_requested",
+      "title": "Revision Requested",
+      "message": "📝 Brand requested a revision: \"bhai sharm aani chaiye kya manga tha kya dharmik chij de rahe ho\"",
+      "event_type": "ugc_revision_requested",
+      "event_ref_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "role_context": "creator",
+      "subtype": "general",
+      "read": false,
+      "created_at": "2026-09-18T06:29:49.906Z",
+      "link": "/creator/ugc/orders"
+    },
+    {
+      "notif_id": "notif_c39ac7c2d7",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "ugc_deliverable_approved",
+      "title": "Deliverable Approved",
+      "message": "🎉 Congratulations! Your UGC deliverable has been approved and escrow payout released.",
+      "event_type": "ugc_deliverable_approved",
+      "event_ref_id": "ugcord_mu6hn57v_1f7434",
+      "role_context": "creator",
+      "subtype": "general",
+      "read": false,
+      "created_at": "2026-09-18T05:46:30.842Z",
+      "link": "/creator/ugc/orders"
+    },
+    {
+      "notif_id": "notif_1789578845509_c4iafej",
+      "user_id": "admin",
+      "type": "user_registered",
+      "message": "New User Joined: Ravi Sharma (scriptedravi04@gmail.com) - brand",
+      "title": "New User Signup",
+      "read": true,
+      "is_admin_message": true,
+      "created_at": "2026-09-16T17:14:05.509Z"
+    },
+    {
+      "notif_id": "notif_1789578828156_f480a0l",
+      "user_id": "admin",
+      "type": "user_registered",
+      "message": "New User Joined: Test Ravi (scriptedravi06@gmail.com) - brand",
+      "title": "New User Signup",
+      "read": true,
+      "is_admin_message": true,
+      "created_at": "2026-09-16T17:13:48.156Z"
+    },
+    {
+      "notif_id": "notif_1789578772330_wcgjz8b",
+      "user_id": "admin",
+      "type": "user_registered",
+      "message": "New User Joined: Test Ravi (scriptedravi05@gmail.com) - brand",
+      "title": "New User Signup",
+      "read": true,
+      "is_admin_message": true,
+      "created_at": "2026-09-16T17:12:52.330Z"
+    },
+    {
+      "notif_id": "notif_1789578527167_01hda5o",
+      "user_id": "admin",
+      "type": "user_registered",
+      "message": "New User Joined: Test (test4@test.com) - creator",
+      "title": "New User Signup",
+      "read": true,
+      "is_admin_message": true,
+      "created_at": "2026-09-16T17:08:47.167Z"
+    },
+    {
+      "id": "notif_a3b07e87-f",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "deal_content_approved",
+      "title": "Draft Approved! 🚀",
+      "message": "The brand approved your content draft. Please submit your live post link to proceed.",
+      "link": "/messages/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "read": false,
+      "created_at": "2026-09-18T07:33:32.418Z",
+      "notif_id": "a7a68376-6350-4f7e-a4a4-2782255fa2fd"
+    },
+    {
+      "id": "notif_52cd8637-2",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "deal_live_links_resubmit",
+      "title": "Correction Requested for Live Links ⚠️",
+      "message": "Brand requested resubmission: \"chnges\"",
+      "link": "/messages/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "read": false,
+      "created_at": "2026-09-18T09:36:49.871Z",
+      "notif_id": "23c8f3e4-23c3-4c2f-89ae-328106cee879"
+    },
+    {
+      "id": "notif_f95a5054-2",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "deal_live_links_approved",
+      "title": "Work Approved & Payment Released! 🎉",
+      "message": "Brand approved your deliverables for ₹17,500. Escrow payout processing in 1–2 working days.",
+      "link": "/messages/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "read": false,
+      "created_at": "2026-09-18T09:38:53.808Z",
+      "notif_id": "2d7a3cce-ec28-46cd-9c3f-00f38ae7a5be"
+    },
+    {
+      "id": "notif_bc488f20-8",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "deal_content_approved",
+      "title": "Draft Approved! 🚀",
+      "message": "The brand approved your content draft. Please submit your live post link to proceed.",
+      "link": "/messages/thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "read": false,
+      "created_at": "2026-09-18T12:00:10.428Z",
+      "notif_id": "e27aebba-77cf-4c26-8b2c-f83bad1dde0b"
+    },
+    {
+      "id": "notif_5eecea1f-a",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "deal_live_links_resubmit",
+      "title": "Correction Requested for Live Links ⚠️",
+      "message": "Brand requested resubmission: \"need chnges\"",
+      "link": "/messages/thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "read": false,
+      "created_at": "2026-09-18T12:00:43.990Z",
+      "notif_id": "2c021e36-e736-4636-8867-b4e6af59d87d"
+    },
+    {
+      "id": "notif_a8906a6f-0",
+      "user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "type": "deal_live_links_approved",
+      "title": "Work Approved & Payment Released! 🎉",
+      "message": "Brand approved your deliverables for ₹2,909. Escrow payout processing in 1–2 working days.",
+      "link": "/messages/thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "read": false,
+      "created_at": "2026-09-18T12:01:35.716Z",
+      "notif_id": "e4600d03-48a3-4920-99a3-28a258febfb7"
+    }
+  ],
+  "platform_settings": {
+    "brand_markup_pct": 2,
+    "creator_deduction_pct": 2,
+    "agency_markup_pct": 5,
+    "agency_deduction_pct": 5,
+    "ai_review_enabled": false
+  },
+  "chat_messages": [
+    {
+      "message_id": "bb9dc1ef-c444-4861-baa9-839a6baad08b",
+      "thread_id": "ugcord_mu6hn57v_1f7434",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "text": "🎉 UGC Deliverable Approved!\n\nThe brand has approved your deliverable. Escrow payout has been released to your account.",
+      "from_name": "Respiro",
+      "message_type": "content_approved",
+      "metadata": {
+        "action": "approved",
+        "status": "COMPLETED",
+        "amount": 5000,
+        "gross_amount": 5000,
+        "platform_fee_percent": 15,
+        "platform_fee_amount": 750,
+        "creator_net_amount": 4250,
+        "payout_status": "PAID"
+      },
+      "created_at": "2026-09-18T05:46:30.842Z",
+      "read": false,
+      "id": "bb9dc1ef-c444-4861-baa9-839a6baad08b",
+      "content": "🎉 UGC Deliverable Approved!\n\nThe brand has approved your deliverable. Escrow payout has been released to your account.",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand"
+    },
+    {
+      "message_id": "cdbff3f0-2bbb-440c-ac6d-3af05ac2e1b1",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "bhai bta kitne [pase lega",
+      "from_name": "Respiro",
+      "message_type": "text",
+      "created_at": "2026-09-18T05:55:49.551Z",
+      "read": false,
+      "id": "cdbff3f0-2bbb-440c-ac6d-3af05ac2e1b1",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "content": "bhai bta kitne [pase lega"
+    },
+    {
+      "message_id": "5b7c16a9-80ec-49cd-bde5-93c100bdb190",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "do randiya nachnvani hai",
+      "from_name": "Respiro",
+      "message_type": "text",
+      "created_at": "2026-09-18T05:55:55.545Z",
+      "read": false,
+      "id": "5b7c16a9-80ec-49cd-bde5-93c100bdb190",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "content": "do randiya nachnvani hai"
+    },
+    {
+      "message_id": "e6e813f3-2a8d-402d-a408-d6ec34542edf",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "last",
+      "from_name": "Respiro",
+      "message_type": "text",
+      "created_at": "2026-09-18T05:57:05.292Z",
+      "read": false,
+      "id": "e6e813f3-2a8d-402d-a408-d6ec34542edf",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "content": "last"
+    },
+    {
+      "message_id": "19faa33d-bafe-48cf-af6c-2daf6596cf9b",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "final hai iske aage nahi ho payega approve kr",
+      "from_name": "Respiro",
+      "message_type": "text",
+      "created_at": "2026-09-18T05:57:12.060Z",
+      "read": false,
+      "id": "19faa33d-bafe-48cf-af6c-2daf6596cf9b",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "content": "final hai iske aage nahi ho payega approve kr"
+    },
+    {
+      "id": "4a77b3ba-a9fd-4ff7-87a6-e7f8debac347",
+      "message_id": "4a77b3ba-a9fd-4ff7-87a6-e7f8debac347",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "sender_role": "system",
+      "message_type": "agreement_executed",
+      "content": "🎉 Agreement Executed! Both parties have signed the contract of ₹17,500. The deal is now ACTIVE. Brand can proceed to secure payment in escrow to begin work.",
+      "metadata": {
+        "action": "agreement_signed",
+        "signer_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+        "offer_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+        "message_type": "agreement_executed"
+      },
+      "created_at": "2026-09-18T06:01:48.334Z"
+    },
+    {
+      "message_id": "bd793797-ad75-42bb-800a-468020759032",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "text": "💰 Payment Secured! ₹17,500 has been deposited and is now held safely in escrow. The creator can begin work.",
+      "message_type": "payment_secured",
+      "metadata": {
+        "action": "payment_secured",
+        "amount": 17500,
+        "paid_at": "2026-09-18T06:05:32.445Z"
+      },
+      "created_at": "2026-09-18T06:05:32.445Z",
+      "id": "bd793797-ad75-42bb-800a-468020759032",
+      "content": "💰 Payment Secured! ₹17,500 has been deposited and is now held safely in escrow. The creator can begin work."
+    },
+    {
+      "message_id": "1c683e22-405a-4ba6-91de-5a8e177acc55",
+      "id": "1c683e22-405a-4ba6-91de-5a8e177acc55",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "receiver_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "sender_role": "creator",
+      "from_name": "Creator",
+      "text": "🎥 Deliverable Draft Submitted for Review!\n\nDeliverable URL: ugc-videos/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535-1789711583414.mp4",
+      "content": "🎥 Deliverable Draft Submitted for Review!\n\nDeliverable URL: ugc-videos/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535-1789711583414.mp4",
+      "message_type": "content_proof_submitted",
+      "metadata": {
+        "action": "deliverable_submitted",
+        "video_url": "ugc-videos/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535-1789711583414.mp4",
+        "content_url": "ugc-videos/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535-1789711583414.mp4"
+      },
+      "read": false,
+      "created_at": "2026-09-18T06:06:26.745Z"
+    },
+    {
+      "message_id": "39c8a3a1-a92a-4ca2-8fbb-648493da2568",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "text": "Brand requested a revision: bhai sharm aani chaiye kya manga tha kya dharmik chij de rahe ho",
+      "from_name": "Respiro",
+      "message_type": "revision_requested",
+      "metadata": {
+        "feedback": "bhai sharm aani chaiye kya manga tha kya dharmik chij de rahe ho",
+        "notes": "bhai sharm aani chaiye kya manga tha kya dharmik chij de rahe ho",
+        "revision_notes": "bhai sharm aani chaiye kya manga tha kya dharmik chij de rahe ho",
+        "revisions_used": 1,
+        "action": "revision_requested"
+      },
+      "created_at": "2026-09-18T06:29:49.906Z",
+      "read": false,
+      "id": "39c8a3a1-a92a-4ca2-8fbb-648493da2568",
+      "content": "Brand requested a revision: bhai sharm aani chaiye kya manga tha kya dharmik chij de rahe ho",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand"
+    },
+    {
+      "message_id": "269674f0-0133-43ee-9599-6762cd05b992",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "receiver_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "text": "🎥 Content Deliverable Draft Submitted for Review!\n\nDeliverable URL: ugc-videos/test-call.mp4\n\nNotes: test notes",
+      "from_name": "Babu bhaiya",
+      "message_type": "content_proof_submitted",
+      "metadata": {
+        "video_url": "ugc-videos/test-call.mp4",
+        "content_url": "ugc-videos/test-call.mp4",
+        "media_url": "ugc-videos/test-call.mp4",
+        "notes": "test notes",
+        "feedback": "test notes",
+        "action": "deliverable_submitted"
+      },
+      "created_at": "2026-09-18T07:09:09.528Z",
+      "read": false,
+      "id": "269674f0-0133-43ee-9599-6762cd05b992",
+      "content": "🎥 Content Deliverable Draft Submitted for Review!\n\nDeliverable URL: ugc-videos/test-call.mp4\n\nNotes: test notes",
+      "sender_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "receiver_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "sender_role": "creator",
+      "media_url": "ugc-videos/test-call.mp4",
+      "content_url": "ugc-videos/test-call.mp4"
+    },
+    {
+      "message_id": "92cd858d-307e-4916-a072-a6ac82a28a8b",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "receiver_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "text": "Brand requested a revision: Please fix the background audio and re-upload",
+      "from_name": "Babu bhaiya",
+      "message_type": "revision_requested",
+      "metadata": {
+        "feedback": "Please fix the background audio and re-upload",
+        "notes": "Please fix the background audio and re-upload",
+        "revision_notes": "Please fix the background audio and re-upload",
+        "revisions_used": 1,
+        "action": "revision_requested"
+      },
+      "created_at": "2026-09-18T07:15:11.063Z",
+      "read": false,
+      "id": "92cd858d-307e-4916-a072-a6ac82a28a8b",
+      "content": "Brand requested a revision: Please fix the background audio and re-upload",
+      "sender_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "receiver_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "sender_role": "creator"
+    },
+    {
+      "message_id": "63fc8d7c-19c7-4ea4-a791-49b511f1d05a",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "text": "Brand requested a revision: Please fix audio sync at 0:15 and re-upload",
+      "from_name": "Respiro",
+      "message_type": "revision_requested",
+      "metadata": {
+        "feedback": "Please fix audio sync at 0:15 and re-upload",
+        "notes": "Please fix audio sync at 0:15 and re-upload",
+        "revision_notes": "Please fix audio sync at 0:15 and re-upload",
+        "revisions_used": 1,
+        "action": "revision_requested"
+      },
+      "created_at": "2026-09-18T07:16:51.277Z",
+      "read": false,
+      "id": "63fc8d7c-19c7-4ea4-a791-49b511f1d05a",
+      "content": "Brand requested a revision: Please fix audio sync at 0:15 and re-upload",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand"
+    },
+    {
+      "message_id": "da2074c6-22c5-4ee9-ba85-c233f68766b0",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "receiver_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "text": "🎥 Content Deliverable Draft Submitted for Review!\n\nDeliverable URL: ugc-videos/revised-audio-synced.mp4\n\nNotes: Audio synchronization has been fixed. Here is the new revision.",
+      "from_name": "Babu bhaiya",
+      "message_type": "content_proof_submitted",
+      "metadata": {
+        "video_url": "ugc-videos/revised-audio-synced.mp4",
+        "content_url": "ugc-videos/revised-audio-synced.mp4",
+        "media_url": "ugc-videos/revised-audio-synced.mp4",
+        "notes": "Audio synchronization has been fixed. Here is the new revision.",
+        "feedback": "Audio synchronization has been fixed. Here is the new revision.",
+        "action": "deliverable_submitted"
+      },
+      "created_at": "2026-09-18T07:16:55.520Z",
+      "read": false,
+      "id": "da2074c6-22c5-4ee9-ba85-c233f68766b0",
+      "content": "🎥 Content Deliverable Draft Submitted for Review!\n\nDeliverable URL: ugc-videos/revised-audio-synced.mp4\n\nNotes: Audio synchronization has been fixed. Here is the new revision.",
+      "sender_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "receiver_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "sender_role": "creator",
+      "media_url": "ugc-videos/revised-audio-synced.mp4",
+      "content_url": "ugc-videos/revised-audio-synced.mp4"
+    },
+    {
+      "message_id": "7c0593b6-2c4a-404b-9eed-c2e400499377",
+      "id": "7c0593b6-2c4a-404b-9eed-c2e400499377",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "🎉 Content Approved! The brand has approved your draft. Please submit your live post link to complete this deal.",
+      "content": "🎉 Content Approved! The brand has approved your draft. Please submit your live post link to complete this deal.",
+      "from_name": "Respiro",
+      "message_type": "content_approved",
+      "metadata": {
+        "action": "draft_approved",
+        "status": "CONTENT_APPROVED"
+      },
+      "read": false,
+      "created_at": "2026-09-18T07:33:32.418Z"
+    },
+    {
+      "message_id": "d2356ad2-8638-4ab7-8b6e-d60120f3b033",
+      "id": "d2356ad2-8638-4ab7-8b6e-d60120f3b033",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "❌ Resubmission requested by Brand: chnges",
+      "content": "❌ Resubmission requested by Brand: chnges",
+      "from_name": "Respiro",
+      "message_type": "live_links_resubmit_request",
+      "metadata": {
+        "action": "live_links_resubmit_requested",
+        "status": "REVISION_REQUESTED_LINKS",
+        "feedback": "chnges"
+      },
+      "read": false,
+      "created_at": "2026-09-18T09:36:49.871Z"
+    },
+    {
+      "message_id": "e0f79692-9f03-4a53-b15c-7bc91575d9c3",
+      "id": "e0f79692-9f03-4a53-b15c-7bc91575d9c3",
+      "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "🎉 Deliverables Approved & Payment Released! The brand has approved the live post. Creator payout of ₹14,875 (₹17,500 gross minus 15% platform fee of ₹2,625) is being processed via Escrow in 1–2 working days.",
+      "content": "🎉 Deliverables Approved & Payment Released! The brand has approved the live post. Creator payout of ₹14,875 (₹17,500 gross minus 15% platform fee of ₹2,625) is being processed via Escrow in 1–2 working days.",
+      "from_name": "Respiro",
+      "message_type": "live_links_approved",
+      "metadata": {
+        "action": "live_links_approved",
+        "status": "COMPLETED",
+        "amount": 17500,
+        "gross_amount": 17500,
+        "platform_fee_percent": 15,
+        "platform_fee_amount": 2625,
+        "creator_net_amount": 14875,
+        "payout_status": "PAID",
+        "sender_role": "brand",
+        "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64"
+      },
+      "read": false,
+      "created_at": "2026-09-18T09:38:53.808Z"
+    },
+    {
+      "message_id": "da1e5de0-062a-4418-a361-b57d29786ac4",
+      "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "sender_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "bhai krna yrr jara accept",
+      "from_name": "carboex",
+      "message_type": "text",
+      "created_at": "2026-09-18T11:49:30.089Z",
+      "read": false,
+      "id": "da1e5de0-062a-4418-a361-b57d29786ac4",
+      "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "content": "bhai krna yrr jara accept"
+    },
+    {
+      "id": "22664255-803d-41dc-9ae0-8cd25d2768aa",
+      "message_id": "22664255-803d-41dc-9ae0-8cd25d2768aa",
+      "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "sender_role": "system",
+      "message_type": "brand_signed",
+      "content": "✍️ Brand has signed the partnership agreement. Awaiting Creator signature to execute contract.",
+      "metadata": {
+        "action": "agreement_signed",
+        "signer_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+        "offer_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+        "message_type": "brand_signed"
+      },
+      "created_at": "2026-09-18T11:54:20.347Z"
+    },
+    {
+      "id": "aa78aaca-ab53-4be9-8ff0-ac0b64d742a4",
+      "message_id": "aa78aaca-ab53-4be9-8ff0-ac0b64d742a4",
+      "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "sender_role": "system",
+      "message_type": "brand_signed",
+      "content": "✍️ Brand has signed the partnership agreement. Awaiting Creator signature to execute contract.",
+      "metadata": {
+        "action": "agreement_signed",
+        "signer_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+        "offer_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+        "message_type": "brand_signed"
+      },
+      "created_at": "2026-09-18T11:57:00.662Z"
+    },
+    {
+      "message_id": "a599d852-75c5-471d-8da9-c8572eac621f",
+      "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "sender_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "text": "💰 Payment Secured! ₹2,909 has been deposited and is now held safely in escrow. The creator can begin work.",
+      "message_type": "payment_secured",
+      "metadata": {
+        "action": "payment_secured",
+        "amount": 2909,
+        "paid_at": "2026-09-18T11:59:05.618Z"
+      },
+      "created_at": "2026-09-18T11:59:05.618Z",
+      "id": "a599d852-75c5-471d-8da9-c8572eac621f",
+      "content": "💰 Payment Secured! ₹2,909 has been deposited and is now held safely in escrow. The creator can begin work."
+    },
+    {
+      "message_id": "409ba754-65ce-43d3-b99d-4a8576e79d74",
+      "id": "409ba754-65ce-43d3-b99d-4a8576e79d74",
+      "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "sender_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "🎉 Content Approved! The brand has approved your draft. Please submit your live post link to complete this deal.",
+      "content": "🎉 Content Approved! The brand has approved your draft. Please submit your live post link to complete this deal.",
+      "from_name": "carboex",
+      "message_type": "content_approved",
+      "metadata": {
+        "action": "draft_approved",
+        "status": "CONTENT_APPROVED"
+      },
+      "read": false,
+      "created_at": "2026-09-18T12:00:10.428Z"
+    },
+    {
+      "message_id": "33e0bb77-ffb9-41e5-92ab-48bd8eb24364",
+      "id": "33e0bb77-ffb9-41e5-92ab-48bd8eb24364",
+      "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "sender_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "❌ Resubmission requested by Brand: need chnges",
+      "content": "❌ Resubmission requested by Brand: need chnges",
+      "from_name": "carboex",
+      "message_type": "live_links_resubmit_request",
+      "metadata": {
+        "action": "live_links_resubmit_requested",
+        "status": "REVISION_REQUESTED_LINKS",
+        "feedback": "need chnges"
+      },
+      "read": false,
+      "created_at": "2026-09-18T12:00:43.990Z"
+    },
+    {
+      "message_id": "7559f286-a6af-482f-a1bc-0cea1cbc084e",
+      "id": "7559f286-a6af-482f-a1bc-0cea1cbc084e",
+      "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "sender_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "sender_role": "brand",
+      "text": "🎉 Deliverables Approved & Payment Released! The brand has approved the live post. Creator payout of ₹2,618 (₹2,909 gross minus 10% platform fee of ₹291) is being processed via Escrow in 1–2 working days.",
+      "content": "🎉 Deliverables Approved & Payment Released! The brand has approved the live post. Creator payout of ₹2,618 (₹2,909 gross minus 10% platform fee of ₹291) is being processed via Escrow in 1–2 working days.",
+      "from_name": "carboex",
+      "message_type": "live_links_approved",
+      "metadata": {
+        "action": "live_links_approved",
+        "status": "COMPLETED",
+        "amount": 2909,
+        "gross_amount": 2909,
+        "platform_fee_percent": 10,
+        "platform_fee_amount": 291,
+        "creator_net_amount": 2618,
+        "payout_status": "RELEASED",
+        "sender_role": "brand",
+        "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b"
+      },
+      "read": false,
+      "created_at": "2026-09-18T12:01:35.716Z"
+    }
+  ],
+  "content_submissions": [
+    {
+      "id": "ee938c02-64fd-4bb5-a4b7-487efd9bb21c",
+      "deal_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "submission_type": "draft",
+      "video_url": "ugc-videos/thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535-1789711583414.mp4",
+      "caption": "",
+      "notes_to_brand": "",
+      "status": "PENDING_REVIEW",
+      "submitted_at": "2026-09-18T06:06:26.745Z"
+    },
+    {
+      "id": "349895d7-e699-4261-8aed-6c534b6f86da",
+      "deal_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "submission_type": "draft",
+      "video_url": "ugc-videos/test-call.mp4",
+      "caption": "",
+      "notes_to_brand": "test notes",
+      "status": "PENDING_REVIEW",
+      "submitted_at": "2026-09-18T07:09:09.528Z"
+    },
+    {
+      "id": "6fd1d65a-f3a4-44db-8615-b3197b1eb7ed",
+      "deal_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "submission_type": "draft",
+      "video_url": "ugc-videos/revised-audio-synced.mp4",
+      "caption": "",
+      "notes_to_brand": "Audio synchronization has been fixed. Here is the new revision.",
+      "status": "APPROVED",
+      "submitted_at": "2026-09-18T07:16:55.520Z",
+      "reviewed_at": "2026-09-18T07:33:32.418Z"
+    }
+  ],
+  "campaign_performance": [],
+  "files": [],
+  "ugc_orders": [
+    {
+      "id": "ugcord_mu6hn57v_1f7434",
+      "brief_id": "brief_mu52io85_402071",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "status": "COMPLETED",
+      "creator_payout": 5000,
+      "video_url": "ugc-videos/ugcord_mu6hn57v_1f7434/ugcord_mu6hn57v_1f7434-1789707639862.mp4",
+      "thumbnail_url": null,
+      "creator_notes": "",
+      "payment_status": "RELEASED",
+      "created_at": "2026-09-18T04:58:30.571+00:00",
+      "internal_deadline": "2026-09-19T02:58:30.571+00:00",
+      "agreement_signed_creator": true,
+      "escrow_hold": true,
+      "escrow_amount": 5000,
+      "escrow_held_at": "2026-09-18T04:58:30.571+00:00",
+      "escrow_released_at": "2026-09-18T05:46:30.842Z",
+      "revision_count": 5,
+      "revisions_used": 0,
+      "agreed_amount": 5000,
+      "delivered_at": "2026-09-18T05:00:43.59+00:00",
+      "cancelled_at": null,
+      "updated_at": "2026-09-18T05:46:30.842Z"
+    },
+    {
+      "id": "ugc_ord_demo_brand_1",
+      "brief_id": "brief_demo_brand_1",
+      "creator_id": "creator_demo_1",
+      "brief": {
+        "id": "brief_demo_brand_1",
+        "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+        "title": "Quick Unboxing for Activewear",
+        "product_name": "Aura Leggings",
+        "detailed_requirements": "We are looking for a highly engaging, well-lit unboxing video showing the premium packaging and the stretchability of the leggings. Please highlight the side pockets and the seamless design.",
+        "sample_content_url": "https://example.com/sample-ugc-unboxing",
+        "product_description": "Premium high-waisted seamless leggings with side pockets.",
+        "budget": 15000,
+        "deliverable_type": "instagram_reel",
+        "dos": [
+          "Show fabric stretch",
+          "Mention 24h shipping"
+        ],
+        "donts": [
+          "Mention price",
+          "Show other brands"
+        ],
+        "status": "IN_PROGRESS",
+        "claimed_count": 1,
+        "max_creators": 1
+      },
+      "brand_status": "IN_PROGRESS",
+      "creator_status": "CLAIMED",
+      "creator_payout": 3300,
+      "agreed_amount": 15000,
+      "internal_deadline": "2026-09-19T05:51:39.317Z",
+      "created_at": "2026-09-18T05:51:39.317Z"
+    }
+  ],
+  "team_activity_logs": [],
+  "creator_payment_methods": [],
+  "transactions": [
+    {
+      "id": "6c12937a-5526-4915-bfc5-21dce0f3f769",
+      "ugc_order_id": "ugcord_mu6hn57v_1f7434",
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "gst_amount": 0,
+      "created_at": "2026-09-18T05:46:30.842Z",
+      "status": "SUCCESS",
+      "payout_status": "PAID",
+      "payout_type": "full",
+      "gross_amount": 5000,
+      "platform_fee_amount": 750,
+      "creator_net_amount": 4250,
+      "payout_completed_at": "2026-09-18T05:46:30.842Z"
+    },
+    {
+      "id": "99961d7d-0c9e-4041-ae49-b280acf4774b",
+      "deal_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "ugc_order_id": null,
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "gross_amount": 17500,
+      "platform_fee_amount": 2625,
+      "creator_net_amount": 14875,
+      "gst_amount": 0,
+      "razorpay_order_id": "order_TdOW0zoK2mj6MD",
+      "razorpay_payment_id": "pay_TdOWI1YS5xIAs3",
+      "status": "SUCCESS",
+      "escrow_hold": true,
+      "payout_status": "RELEASED",
+      "created_at": "2026-09-18T06:05:32.445Z",
+      "payout_completed_at": "2026-09-18T09:38:53.808Z"
+    },
+    {
+      "id": "cf60d77f-32b1-467d-97d7-b7260c719fd6",
+      "deal_id": "94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "ugc_order_id": null,
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "gross_amount": 2909,
+      "platform_fee_amount": 291,
+      "creator_net_amount": 2618,
+      "gst_amount": 0,
+      "razorpay_order_id": "order_TdUXaRx8ZT1RFf",
+      "razorpay_payment_id": "pay_TdUXkLOnhyUtOx",
+      "status": "SUCCESS",
+      "escrow_hold": true,
+      "payout_status": "RELEASED",
+      "created_at": "2026-09-18T11:59:05.618Z",
+      "payout_completed_at": "2026-09-18T12:01:35.716Z"
+    }
+  ],
+  "fee_configs": [
+    {
+      "id": 1,
+      "threshold_amount": 20000,
+      "below_threshold_rate": 15,
+      "above_threshold_rate": 5,
+      "gst_rate": 18
+    }
+  ],
+  "chat_threads": [
+    {
+      "id": "ugcord_mu6hn57v_1f7434",
+      "deal_id": "ugcord_mu6hn57v_1f7434",
+      "campaign_id": null,
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "status": "COMPLETED",
+      "agreed_amount": 5000,
+      "deliverables": null,
+      "deadline": null,
+      "revision_count": 5,
+      "agreement_signed_creator": true,
+      "agreement_signed_brand": true,
+      "agreement_signed_at": null,
+      "created_at": "2026-09-18T04:58:30.571+00:00",
+      "updated_at": "2026-09-18T05:46:30.842Z",
+      "flow_state": "COMPLETED"
+    },
+    {
+      "id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "deal_id": "8b3e45b5-4178-405a-9051-a94ba43a0535",
+      "campaign_id": "9929b685-15a4-46ab-b420-5057a5270888",
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "status": "COMPLETED",
+      "agreed_amount": 17500,
+      "deliverables": null,
+      "deadline": null,
+      "revision_count": 5,
+      "agreement_signed_creator": true,
+      "agreement_signed_brand": true,
+      "agreement_signed_at": "2026-09-18T06:01:47.252Z",
+      "created_at": "2026-09-18T05:55:24.333682+00:00",
+      "updated_at": "2026-09-18T09:38:53.808Z",
+      "flow_state": "COMPLETED",
+      "counter_amount": 17500,
+      "last_message": {
+        "message_id": "19faa33d-bafe-48cf-af6c-2daf6596cf9b",
+        "thread_id": "thread_camp_8b3e45b5-4178-405a-9051-a94ba43a0535",
+        "sender_user_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+        "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+        "sender_role": "brand",
+        "text": "final hai iske aage nahi ho payega approve kr",
+        "from_name": "Respiro",
+        "message_type": "text",
+        "created_at": "2026-09-18T05:57:12.060Z",
+        "read": false,
+        "id": "19faa33d-bafe-48cf-af6c-2daf6596cf9b",
+        "sender_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+        "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+        "content": "final hai iske aage nahi ho payega approve kr"
+      },
+      "submitted_video_url": "ugc-videos/revised-audio-synced.mp4",
+      "revision_notes": "Please fix audio sync at 0:15 and re-upload",
+      "content_approved": true,
+      "revision_notes_links": "chnges"
+    },
+    {
+      "id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "deal_id": "94ad5a97-a2b3-4336-bc7b-48b926801207",
+      "campaign_id": "8378940f-b9da-49a4-bbd3-58886b7c220b",
+      "creator_id": "79174421-2fcc-447c-983c-12a2f168b014",
+      "brand_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "status": "COMPLETED",
+      "agreed_amount": 2909,
+      "deliverables": null,
+      "deadline": null,
+      "revision_count": 5,
+      "agreement_signed_creator": false,
+      "agreement_signed_brand": true,
+      "agreement_signed_at": null,
+      "created_at": "2026-09-18T11:48:36.517685+00:00",
+      "updated_at": "2026-09-18T12:01:35.716Z",
+      "flow_state": "COMPLETED",
+      "counter_amount": null,
+      "last_message": {
+        "message_id": "da1e5de0-062a-4418-a361-b57d29786ac4",
+        "thread_id": "thread_camp_94ad5a97-a2b3-4336-bc7b-48b926801207",
+        "sender_user_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+        "receiver_user_id": "79174421-2fcc-447c-983c-12a2f168b014",
+        "sender_role": "brand",
+        "text": "bhai krna yrr jara accept",
+        "from_name": "carboex",
+        "message_type": "text",
+        "created_at": "2026-09-18T11:49:30.089Z",
+        "read": false,
+        "id": "da1e5de0-062a-4418-a361-b57d29786ac4",
+        "sender_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+        "receiver_id": "79174421-2fcc-447c-983c-12a2f168b014",
+        "content": "bhai krna yrr jara accept"
+      },
+      "amount_fixed": 2909,
+      "ai_generated_agreement": "### CAMPAIGN COLLABORATION AGREEMENT\n\nThis agreement is entered into between **Brand Partner** (\"Brand\") and **Creator** (\"Creator\").\n\n**1. Project Deliverables & Due Date**\nThe Creator agrees to deliver high-quality content as specified below by **2026-07-25**:\n* Deliver campaign requirements.\n\n**2. Compensation**\nUpon successful completion, review, and publication of the content, the Brand shall pay the Creator a fixed sum of **INR 2909** (subject to standard platform fee deductions).\n\n**3. Location of Work**\nAll production and creative styling will take place remotely at Creator's designated location.\n\nWe are pleased to partner with you to bring this campaign to life!",
+      "content_approved": true,
+      "revision_notes_links": "need chnges"
+    }
+  ],
+  "deal_offers": [],
+  "message_flags": [],
+  "user_violations": [],
+  "saved_creators": [],
+  "collab_cost_requests": [],
+  "brief_requests": [],
+  "creator_portfolio": [],
+  "collab_proof_submissions": [],
+  "invoice_clients": [],
+  "invoice_billing_profile": [],
+  "creator_reviews": [],
+  "invoices": [],
+  "ugc_briefs": [
+    {
+      "id": "brief_mu52nawx_ef302f",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "title": "Ankit 2",
+      "product_name": "testing Ankit 2",
+      "product_description": "i have a  boyfriend",
+      "budget": 10000,
+      "max_creators": 2,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "i have a boyfriend",
+      "sample_content_url": "",
+      "dos": [
+        "suhfguyewgf8"
+      ],
+      "donts": [
+        "dvuergvyre"
+      ],
+      "deliverable_type": "ugc_video_edited",
+      "video_duration": "90s",
+      "created_at": "2026-09-17T05:10:57.537+00:00",
+      "brand_name": "Respiro"
+    },
+    {
+      "id": "brief_mu52uny5_33a47c",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "title": "Ankit 4",
+      "product_name": "testing Ankit 4",
+      "product_description": "i have my own villa",
+      "budget": 9999,
+      "max_creators": 1,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "i have my own villa",
+      "sample_content_url": "",
+      "dos": [
+        "ibvisuhvisdbvkdxn"
+      ],
+      "donts": [
+        "dfberhbdfbs"
+      ],
+      "deliverable_type": "collaboration_reel",
+      "video_duration": "30s",
+      "created_at": "2026-09-17T05:16:41.021+00:00",
+      "brand_name": "Respiro"
+    },
+    {
+      "id": "brief_mu6vbu7s_cosmic1",
+      "brand_id": "753e66b3-7cdb-4984-b942-257f481fa8d1",
+      "title": "Testing UGC 1 - Cosmic Eye Collab Reel",
+      "product_name": "Cosmic Polarized Designer Sunglasses",
+      "product_description": "Premium UV400 polarized shades with anti-scratch coating and lightweight titanium frame.",
+      "budget": 3500,
+      "max_creators": 2,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "Create an aesthetic 30-second reel showcasing outdoor outfit pairing with sunglasses and post with brand collaboration tag.",
+      "sample_content_url": "",
+      "dos": [
+        "Tag @cosmiceye in collaboration post",
+        "Shoot in bright natural daylight",
+        "Showcase frame details and reflection clearly"
+      ],
+      "donts": [
+        "No poor lighting or blurry video",
+        "Do not mention competitor eyewear brands"
+      ],
+      "deliverable_type": "collaboration_reel",
+      "video_duration": "30s",
+      "created_at": "2026-09-18T11:16:37.72+00:00",
+      "brand_name": "cosmic eye"
+    },
+    {
+      "id": "brief_mu6vbu7s_carboex2",
+      "brand_id": "5eb205e8-ae87-4815-b18a-1aa238e7f68b",
+      "title": "Testing UGC 2 - Carboex Travel B-Roll Raw",
+      "product_name": "Carboex Travel Backpack 40L",
+      "product_description": "Waterproof, airline cabin-approved ergonomic hiking and travel rucksack with dedicated laptop compartment.",
+      "budget": 2500,
+      "max_creators": 3,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "Deliver 4-5 uncut RAW b-roll video clips (60s total) showing compartments, zipper durability, water resistance test, and on-shoulder fit.",
+      "sample_content_url": "",
+      "dos": [
+        "Provide high-res 4K 60fps raw clips via Drive link",
+        "Show compartment organization and laptop sleeve",
+        "Stable footage without camera shake"
+      ],
+      "donts": [
+        "Do not apply filters or color grades to raw clips",
+        "No background music or sound effects in raw files"
+      ],
+      "deliverable_type": "ugc_video_raw",
+      "video_duration": "60s",
+      "created_at": "2026-09-18T11:17:37.72+00:00",
+      "brand_name": "carboex"
+    },
+    {
+      "id": "brief_mu6vbu7s_palmons3",
+      "brand_id": "548db5cf-9d5a-4a10-aa62-c353b5b114cb",
+      "title": "Testing UGC 3 - Palmons Edited Video & Voiceover",
+      "product_name": "Palmons Waterproof Gold Choker & Earrings",
+      "product_description": "18k gold-plated hypoallergenic daily wear jewelry designed never to fade or oxidize in water.",
+      "budget": 4000,
+      "max_creators": 2,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "Fully edited 45-second vertical video (9:16) with trending background music, dynamic captions, and enthusiastic voiceover.",
+      "sample_content_url": "",
+      "dos": [
+        "Include hook in the first 2 seconds",
+        "Show close-up macro shots of jewelry shine",
+        "Add clear animated captions"
+      ],
+      "donts": [
+        "Do not skip voiceover",
+        "Avoid generic royalty-free elevator music"
+      ],
+      "deliverable_type": "ugc_video_edited",
+      "video_duration": "45s",
+      "created_at": "2026-09-18T11:18:37.72+00:00",
+      "brand_name": "Palmons"
+    },
+    {
+      "id": "brief_mu6vbu7s_sonam4",
+      "brand_id": "1b0e4798-9cf1-4edc-878a-3ea12bd1a5de",
+      "title": "Testing UGC 4 - Skincare Draft Review & Trial",
+      "product_name": "Glow & Hydrate Daily Vitamin C Serum",
+      "product_description": "Dermatologically tested clean formulation for instant hydration and dark spot correction.",
+      "budget": 3000,
+      "max_creators": 2,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "Share initial video draft of unboxing, texture review on skin, and 7-day progress commentary for brand feedback and approval.",
+      "sample_content_url": "",
+      "dos": [
+        "Show dropper application on clean face",
+        "Mention key natural ingredients like Kakadu plum & hyaluronic acid",
+        "Submit draft for feedback"
+      ],
+      "donts": [
+        "Do not use heavy beauty filters",
+        "Do not apply over heavy makeup"
+      ],
+      "deliverable_type": "draft_review",
+      "video_duration": "30s",
+      "created_at": "2026-09-18T11:19:37.72+00:00",
+      "brand_name": "Sonam Vishwa"
+    },
+    {
+      "id": "brief_mu6vbu7s_respiro5",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "title": "Testing UGC 5 - Respiro Taste Test & Review Reel",
+      "product_name": "Respiro Peri-Peri Roasted Makhana",
+      "product_description": "Guilt-free crunchy superfood roasted in olive oil with zero trans-fat and high fiber.",
+      "budget": 5000,
+      "max_creators": 2,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "Authentic crunch taste-test reaction video showing snack time crunch, reading nutritional info, and personal recommendation.",
+      "sample_content_url": "",
+      "dos": [
+        "Capture crisp audio crunch on microphone",
+        "Show calorie & protein count on packet",
+        "Highlight delicious flavor in reaction"
+      ],
+      "donts": [
+        "No artificial or exaggerated fake reactions",
+        "Do not show other snacks on table"
+      ],
+      "deliverable_type": "collaboration_reel",
+      "video_duration": "30s",
+      "created_at": "2026-09-18T11:20:37.72+00:00",
+      "brand_name": "Respiro"
+    },
+    {
+      "id": "brief_5qr41ctwe",
+      "brand_id": "dev-user-id-12345",
+      "title": "ee",
+      "product_name": "ee",
+      "product_description": "Since \"ee\" is a placeholder, I have structured this brief to be highly adaptable. You can plug in the specific details of your product—whether it’s a tech gadget, a fashion item, or a service—into the bracketed sections.\n\n---\n\n# Influencer Marketing Campaign Brief: [Product Name]\n\n## 1. Campaign Overview\n*   **Campaign Name:** [e.g., The ee Launch Initiative]\n*   **Product:** [Briefly describe the product and its primary USP]\n*   **Goal:** [e.g., Brand Awareness, Lead Generation, Sales Conversion, User-Generated Content (UGC)]\n*   **Campaign Duration:** [Start Date] – [End Date]\n*   **Key Message:** [The \"one thing\" you want the audience to remember, e.g., \"Simplifying your daily workflow.\"]\n\n## 2. Target Audience\n*   **Primary Demographic:** [Age, Location, Gender]\n*   **Psychographics:** [Interests, pain points, values—e.g., tech-savvy professionals, eco-conscious shoppers, fitness enthusiasts.]\n*   **Preferred Platforms:** [e.g., Instagram (Visuals), TikTok (Virality), YouTube (Deep Dives/Reviews)]\n\n## 3. Influencer Profile Requirements\nWe are looking for partners who align with our brand identity of [insert brand voice, e.g., innovation, luxury, transparency].\n\n*   **Tier:** [Nano (1k-10k) / Micro (10k-50k) / Mid-tier (50k-250k) / Macro (250k+)]\n*   **Niche:** [List relevant categories, e.g., Lifestyle, Tech, Productivity]\n*   **Engagement Rate:** Minimum of [X]%\n*   **Brand Alignment:** Must have a history of creating [high-quality/authentic/educational] content.\n\n## 4. Scope of Work (Deliverables)\nPlease outline the expectation for each partner:\n*   **Content Format:** [e.g., 1x TikTok Reel (60s), 1x IG Story with Link, 1x Static Carousel]\n*   **Creative Direction:** [Provide \"Must-haves\": e.g., Show the unboxing, use the product in a daily routine, include a specific call-to-action (CTA).]\n*   **Compliance:** All posts must include [#ad, #sponsored] and the mandatory brand disclaimer.\n*   **Usage Rights:** [e.g., We require 6-month usage rights for paid social ads for all content created.]\n\n## 5. Key Messaging & Tone\n*   **Voice:** [e.g., Energetic, minimalist, educational, humorous.]\n*   **Do’s:** [e.g., Focus on product ease of use, show the before/after.]\n*   **Don’ts:** [e.g., Don’t mention competitors, don’t use filters that distort the product’s color.]\n\n## 6. Compensation Structure\n*   **Fixed Fee:** $[Amount] per deliverable.\n*   **Affiliate:** [X]% commission on sales generated via personal promo code.\n*   **Gifted:** Product value provided in exchange for [X] content.\n*   **Performance Bonus:** [Outline any bonuses for reaching specific KPIs, such as X number of saves or clicks.]\n\n## 7. Timeline & Logistics\n*   **Influencer Outreach:** [Date]\n*   **Contract Signing:** [Date]\n*   **Content Draft Submission:** [Date]\n*   **Feedback/Approval:** [Date]\n*   **Go-Live Date:** [Date]\n\n## 8. Reporting & KPIs\nWe will measure success through:\n*   **Reach & Impressions:** Total eyeballs on the campaign.\n*   **Engagement:** Comments, shares, and saves.\n*   **Conversion:** Clicks to landing page, coupon code usage (Redemption Rate).\n*   **UGC:** Quantity and quality of organic content generated by followers.\n\n---\n\n### Pro-Tips for Success:\n1.  **Creative Freedom:** While this brief is detailed, allow influencers to adapt the script to their own tone of voice. Audiences follow them because of *their* unique personality, not the brand's.\n2.  **Tracking:** Always provide a unique tracking link (UTM) or individual discount codes for each influencer so you can measure exactly which partners are driving the highest ROI.\n3.  **Communication:** Set up a dedicated point of contact (e.g., email or Slack channel) to answer questions quickly during the content production phase.",
+      "budget": 50000,
+      "max_creators": 10,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "ee",
+      "sample_content_url": "ee",
+      "dos": [
+        "ee"
+      ],
+      "donts": [
+        "e"
+      ],
+      "deliverable_type": "instagram_reel",
+      "video_duration": "30s",
+      "created_at": "2026-07-24T20:24:35.665809+00:00",
+      "brand_name": "Nexus Brands"
+    },
+    {
+      "id": "brief_mu52r9gm_595ba0",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "title": "Ankit 3",
+      "product_name": "testing Ankit 3",
+      "product_description": "i have my stomach",
+      "budget": 6489,
+      "max_creators": 1,
+      "claimed_count": 1,
+      "status": "COMPLETED",
+      "detailed_requirements": "i have my stomach",
+      "sample_content_url": "",
+      "dos": [
+        "iidsbvuibdsvn"
+      ],
+      "donts": [
+        "udubvsdrevdsv"
+      ],
+      "deliverable_type": "ugc_video_raw",
+      "video_duration": "Raw Clips",
+      "created_at": "2026-09-17T05:14:02.278+00:00",
+      "brand_name": "Respiro"
+    },
+    {
+      "id": "brief_mu18fyd3_443fef",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "title": "sunscreen ",
+      "product_name": "respiro detain sunscreen ",
+      "product_description": "sdhcvuywgcuwjcvywev",
+      "budget": 3000,
+      "max_creators": 1,
+      "claimed_count": 1,
+      "status": "COMPLETED",
+      "detailed_requirements": "jhsdcjwevyucvjdsbudvjsdv",
+      "sample_content_url": "",
+      "dos": [
+        "jjhbvuvj vcjudf"
+      ],
+      "donts": [
+        "dcygvbjvcugeruj"
+      ],
+      "deliverable_type": "ugc_video_edited",
+      "video_duration": "30s",
+      "created_at": "2026-09-14T12:42:07.672+00:00",
+      "brand_name": "Respiro"
+    },
+    {
+      "id": "brief_mu5bq6rg_e4514f",
+      "brand_id": "548db5cf-9d5a-4a10-aa62-c353b5b114cb",
+      "title": "Unboxing & First Look - Product",
+      "product_name": "Nothing ",
+      "product_description": "Get lost brother ",
+      "budget": 2000,
+      "max_creators": 1,
+      "claimed_count": 0,
+      "status": "OPEN",
+      "detailed_requirements": "Frhekakfjskebcbshtjskrksjxjsj Eda se ajrjaiskcjakeiaolxjejskck as cn d njkkd",
+      "sample_content_url": "",
+      "dos": [
+        "Show product texture clearly in natural daylight",
+        "Include first 3-second hook"
+      ],
+      "donts": [
+        "Do not mention competitor brand names",
+        "Do not use heavy artificial smoothing filters"
+      ],
+      "deliverable_type": "collaboration_reel",
+      "video_duration": "30s",
+      "created_at": "2026-09-17T09:25:08.668+00:00",
+      "brand_name": "Palmons "
+    },
+    {
+      "id": "brief_mu52io85_402071",
+      "brand_id": "f2679603-0a07-484e-af70-3762f6c8bc64",
+      "title": "Ankit 1",
+      "product_name": "testing ankit 1",
+      "product_description": "i have some space ",
+      "budget": 5000,
+      "max_creators": 1,
+      "claimed_count": 1,
+      "status": "COMPLETED",
+      "detailed_requirements": "i have some space ",
+      "sample_content_url": "",
+      "dos": [
+        "sdfsdvwgdsv"
+      ],
+      "donts": [
+        "sdsgdgrggsd"
+      ],
+      "deliverable_type": "ugc_video_edited",
+      "video_duration": "30s",
+      "created_at": "2026-09-17T05:07:21.509+00:00",
+      "brand_name": "Respiro"
+    },
+    {
+      "id": "brief_test_ops_mtr8du9p",
+      "brand_id": "dev-user-id-12345",
+      "title": "Spring UGC Launch",
+      "product_name": "Glow Serum",
+      "product_description": "30s product demo and reaction",
+      "budget": 75000,
+      "max_creators": 3,
+      "claimed_count": 1,
+      "status": "CLAIMED",
+      "detailed_requirements": "Show bottle, apply 2 drops, speak to camera",
+      "sample_content_url": null,
+      "dos": null,
+      "donts": null,
+      "deliverable_type": "instagram_reel",
+      "video_duration": "30s",
+      "created_at": "2026-09-07T12:42:47.294+00:00",
+      "brand_name": "Developer Bypass"
+    }
+  ],
+  "ugc_deliveries": [],
+  "ugc_showcase": [],
+  "ugc_reviews": [],
+  "earnings": [],
+  "banners": [],
+  "admin_auth_logs": [
+    {
+      "user_id": "dev-admin-id-12345",
+      "email": "admin@ybex.io",
+      "event_type": "logout",
+      "ip_address": "116.68.245.128, 169.254.169.126",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "created_at": "2026-09-18T04:47:47.323Z"
+    },
+    {
+      "user_id": "dev-admin-id-12345",
+      "email": "admin@ybex.io",
+      "event_type": "logout",
+      "ip_address": "116.68.245.128, 169.254.169.126",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "created_at": "2026-09-18T04:49:58.028Z"
+    },
+    {
+      "user_id": "dev-admin-id-12345",
+      "email": "admin@ybex.io",
+      "event_type": "logout",
+      "ip_address": "116.68.245.128, 169.254.169.126",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "created_at": "2026-09-18T06:44:04.072Z"
+    },
+    {
+      "user_id": "dev-admin-id-12345",
+      "email": "admin@ybex.io",
+      "event_type": "logout",
+      "ip_address": "116.68.245.128, 169.254.169.126",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "created_at": "2026-09-18T09:35:05.381Z"
+    },
+    {
+      "user_id": "dev-admin-id-12345",
+      "email": "admin@ybex.io",
+      "event_type": "logout",
+      "ip_address": "116.68.245.128, 169.254.169.126",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "created_at": "2026-09-18T10:05:58.432Z"
+    },
+    {
+      "user_id": "dev-admin-id-12345",
+      "email": "admin@ybex.io",
+      "event_type": "logout",
+      "ip_address": "116.68.245.128, 169.254.169.126",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "created_at": "2026-09-18T11:46:35.763Z"
+    }
+  ],
+  "admin_activity_logs": [],
+  "blocked_message_attempts": [],
+  "chat_violations": [
+    {
+      "id": "v_seed_1",
+      "conversation_id": "thread_seed_1",
+      "sender_id": "user_violator_creator",
+      "sender_role": "creator",
+      "message_content_attempted": "Let's deal directly, call me on 9812345678.",
+      "violation_type": "hard_number",
+      "detected_at": "2026-09-15T16:02:19.709Z"
+    },
+    {
+      "id": "v_seed_2",
+      "conversation_id": "thread_seed_1",
+      "sender_id": "user_violator_creator",
+      "sender_role": "creator",
+      "message_content_attempted": "Sending my contact. Message me: +919812345678",
+      "violation_type": "hard_number",
+      "detected_at": "2026-09-15T17:02:19.709Z"
+    },
+    {
+      "id": "v_seed_3",
+      "conversation_id": "thread_seed_2",
+      "sender_id": "user_violator_brand",
+      "sender_role": "brand",
+      "message_content_attempted": "Can you send your WhatsApp number to arrange the call?",
+      "violation_type": "soft_keyword",
+      "detected_at": "2026-09-16T11:02:19.709Z"
+    },
+    {
+      "id": "v_seed_4",
+      "conversation_id": "thread_seed_1",
+      "sender_id": "user_violator_creator",
+      "sender_role": "creator",
+      "message_content_attempted": "Okay, ping me outside this app on telegram.",
+      "violation_type": "soft_keyword",
+      "detected_at": "2026-09-16T12:02:19.709Z"
+    }
+  ],
+  "master_tags": [],
+  "entity_tags": [],
+  "support_tickets": [],
+  "ticket_messages": [],
+  "app_versions": [],
+  "warning_templates": [
+    {
+      "template_id": "warn_off_platform",
+      "name": "Off-Platform Communication / Payment Attempt",
+      "subtype": "warning",
+      "text": "Attempting to take communication or payments outside of the platform is a violation of Ybex Terms of Service."
+    },
+    {
+      "template_id": "warn_missed_deadline",
+      "name": "Repeated Missed Deliverable Deadlines",
+      "subtype": "warning",
+      "text": "You have failed to submit deliverables within the agreed-upon timeline without prior communication."
+    },
+    {
+      "template_id": "warn_inappropriate_conduct",
+      "name": "Unprofessional or Inappropriate Conduct",
+      "subtype": "warning",
+      "text": "Your recent messages or behavior violate our community guidelines regarding professional conduct."
+    },
+    {
+      "template_id": "warn_content_guidelines",
+      "name": "Deliverable Quality / Policy Non-Compliance",
+      "subtype": "warning",
+      "text": "Content submitted does not adhere to platform quality benchmarks or brand brief guidelines."
+    },
+    {
+      "template_id": "warn_spam_unsolicited",
+      "name": "Spam or Unsolicited Promotional Outreach",
+      "subtype": "warning",
+      "text": "Sending unsolicited spam or excessive direct solicitations to users is strictly prohibited."
+    }
+  ],
+  "referral_config": {
+    "creator_referral_reward": 500,
+    "brand_referral_reward": 1000,
+    "referral_trigger_action": "first_completed_collab",
+    "referral_monthly_cap": 10,
+    "referral_enabled": true
+  }
+}

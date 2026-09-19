@@ -1,0 +1,20 @@
+export const APP_CATEGORIES = [
+  "Finance & Investing",
+  "Technology",
+  "Fashion",
+  "Beauty",
+  "Travel",
+  "Food",
+  "Fitness & Health",
+  "Gaming",
+  "Education",
+  "Lifestyle",
+  "Comedy",
+  "Art & Design",
+  "Music",
+  "Dance",
+  "Spiritual & Wellness",
+  "Real Estate",
+  "Sports",
+  "Business & Startups"
+];

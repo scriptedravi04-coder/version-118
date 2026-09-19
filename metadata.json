@@ -1,0 +1,8 @@
+{
+  "name": "Ybex - Influencer Marketplace",
+  "description": "Influencer and brand collaboration marketplace for sponsorship campaigns, UGC content orders, contract management, escrow, and chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
